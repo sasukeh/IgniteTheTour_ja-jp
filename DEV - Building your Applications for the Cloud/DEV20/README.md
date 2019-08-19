@@ -83,7 +83,9 @@ https://msvstsdemo-a.visualstudio.com/AbelUnbreakablePipelineDemo/_releaseProgre
  1. 私はあなたにすべての理由を与えることができ、私は私の声明をバックアップするためにチャートやグラフを引き出すことができます。しかし、DevOps の前後の違いを実際に擬人的に示すショートフィルムを見せたかったのです。
 ![](readmeImages/2018-11-09-09-32-26.png)
 
-1. ![https://www.youtube.com/watch?time_continue=128&v=RRy_73ivcms](readmeImages/2018-11-09-09-33-37.png)
+こちらの動画：https://www.youtube.com/watch?time_continue=128&v=RRy_73ivcms
+
+![](readmeImages/2018-11-09-09-33-37.png)
 
 1. このようにビジネスに対応するためにDevOps を行う必要があります。年に一度私たちのコードを展開しようとする、昔のやり方を持つサーバではなく、ピットクルーのように油を注ぐ機械にする必要があり、継続的に価値を提供しなければなりません。
 
