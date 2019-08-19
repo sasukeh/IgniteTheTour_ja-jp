@@ -1,39 +1,41 @@
-# Deploying your application faster and safer
+# アプリケーションをより迅速かつ安全に展開する
 
-Application deployment has changed drastically over the years, with tedious, manual tasks being replaced by scripted routines. It’s even easier today with cloud services to help you out.
+アプリケーションの展開は長年にわたり大きく変化し、面倒な手動タスクがスクリプト化されたルーチンに置き換えられました。クラウド サービスを使用すると、さらに簡単にご支援を行うことができます。
+この講演では、Azure サービスを使用してアプリケーションを自動化し、継続的にデプロイする方法について詳しく説明します。まず、A/B テストや自動承認ゲートなど、開発者が制御する自動化された操作 (DevOps) について話し合います。次に、Azure の新しい DevOps プロジェクトを使用してクラウドに完全に移行し、ボタンを数回クリックするだけでフロントエンド Web アプリケーション、バックエンド Web サービスとデータベース、モバイル アプリケーションのデプロイを自動化する方法を示します。
 
-In this talk, we’ll take a deep dive into automating and continuously deploying your application using Azure Services. We’ll start with the basics, discussing automated operations that developers control (DevOps) like A/B testing and automated approval gates. We’ll then take that entirely to the cloud using Azure’s new DevOps project, showing you how you can automate the deployment of a frontend web application, backend web service and database, and mobile application with a few clicks of a button.
 
-## Features
+## 機能
 
-This project demonstrates the following:
+このプロジェクトでは、次の例を示します。
 
-* [Azure Pipelines](https://azure.microsoft.com/en-au/services/devops/pipelines/?WT.mc_id=msignitethetour-github-dev20)
+* [Azure Pipelines](https://azure.microsoft.com/ja-jp/services/devops/pipelines/?WT.mc_id=msignitethetour-github-dev20)
 * [Azure Pipelines App for GitHub](https://github.com/marketplace/azure-pipelines)
-* [Azure DevOps Deployment Gates](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/approvals/gates?WT.mc_id=msignitethetour-github-dev20)
-* [Azure App Service Deployment Slots](https://docs.microsoft.com/en-us/azure/app-service/web-sites-staged-publishing?WT.mc_id=msignitethetour-github-dev20)
+* [Azure DevOps Deployment Gates](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/release/approvals/gates?WT.mc_id=msignitethetour-github-dev20)
+* [Azure App Service Deployment Slots](https://docs.microsoft.com/ja-jp/azure/app-service/web-sites-staged-publishing?WT.mc_id=msignitethetour-github-dev20)
 
-## Additional Links
+## 追加リンク
 
-* [Azure DevOps Documentation](https://docs.microsoft.com/en-us/azure/devops/index?WT.mc_id=MSIgniteTheTour-github-dev20)
-* [DevOps Resource Center](https://docs.microsoft.com/en-us/azure/devops/learn/?WT.mc_id=MSIgniteTheTour-github-dev20)
+* [Azure DevOps Documentation](https://docs.microsoft.com/ja-jp/azure/devops/index?WT.mc_id=MSIgniteTheTour-github-dev20)
+* [DevOps Resource Center](https://docs.microsoft.com/ja-jp/azure/devops/learn/?WT.mc_id=MSIgniteTheTour-github-dev20)
 
-# Demo Walkthrough:
+# デモ ウォークスルー:
+これは DevOps セッションのデモ スクリプトです。このセッションでは、
 
-This is the demo script for the DevOps session. In this session, we will cover
+- Github から Azure パイプラインへの CI Yaml ベースのパイプラインの作成。
+- ABテストで高度な開発のベストプラクティスを追加
+- Azure モニタリングを品質ゲートとして使用して、ステージ間に自動承認ゲートを追加する
+- Azure DevOps プロジェクトを使用して、任意の言語のプロジェクトを開始する高速トラック
+- 追い風取引のための現実世界のビルドとリリースパイプラインを歩きます。
 
-- creating a CI Yaml based pipeline from Github to Azure Pipelines.
-- adding advanced devops best practices with AB Testing
-- Adding automated approval gates between stages using Azure Monitoring as a quality gate
-- Fast track starting a project for any language using Azure DevOps Project
-- Walk through real world build and release pipelines for Tailwind Trading.
 
-## Setup
-This session's demos are done using the browser and one instance of VSCode. Open up an instance of your favorite browser and have the following tabs
+## セットアップ
+This session's demos are done using the browser and one instance of VSCode. Open up an instance of your favorite browser and have the following tabs.
+このセッションのデモは、ブラウザと VSCode の 1 つのインスタンスを使用して行われます。お気に入りのブラウザを開き、次のタブを保持してください。
 
-1. `Tab 1 - Git hub repo for tailwind front end` https://github.com/damovisa/AbelTailWindFrontEnd 
+<!-- TODO: update properly links-->
+1. `Tab 1 - GitHub リポジトリ for tailwind front end` https://github.com/sasukeh/AbelTailWindFrontEnd
 ![](readmeImages/2018-11-09-07-48-15.png)
-1. `Tab 2 - DevOps dashboard in Azure` https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/b490f4aa-5eaf-49d9-af61-3381ac839138
+1. `Tab 2 - AzureのDevOpsダッシュボード ` https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/b490f4aa-5eaf-49d9-af61-3381ac839138
 ![](readmeImages/2018-11-19-21-01-00.png)
 1. `Tab 3 - Tailwind Build All Up` https://dev.azure.com/azuredevopsdemo-a/AbelTailwindInventoryService/_apps/hub/ms.vss-ciworkflow.build-ci-hub?_a=edit-build-definition&id=27
 ![](readmeImages/2018-11-09-07-59-05.png) 
@@ -49,37 +51,38 @@ https://msvstsdemo-a.visualstudio.com/AbelUnbreakablePipelineDemo/_releaseProgre
 https://msvstsdemo-a.visualstudio.com/AbelUnbreakablePipelineDemo/_releaseProgress?releaseId=276&_a=release-pipeline-progress
 ![](readmeImages/2018-11-09-09-12-34.png)
 
-Open up another instance of a different browser. If you opened up the first set using chrome, open up another browser using firefox or edge and in this browser have 2 tabs
+別のブラウザを開きます。Chromeを使用して最初のセットを開いた場合は、Firefox または Edge を使用してください。このブラウザで 2 つのタブを開きます。
 
 1. `Tab 1 - Tailwind Traders Staging` https://abeltailwindfrontend4staging.azurewebsites.net/
 ![](readmeImages/2018-11-09-09-14-45.png)
 2. `Tab 2 - Tailwind Traders Production` https://abeltailwindfrontend4.azurewebsites.net/
 ![](readmeImages/2018-11-09-09-15-37.png)
 
-This demo will also use VSCode to make some code changes
+このデモでは、VSCode を使用してコードを変更することもできます。
 
-1. VSCode open with src/style.css open
+1.  `src/style.css`をVSCodeで開く
 
-## CLEANUP
+## クリーンアップ
 
-1. Delete build and release pipelines for https://dev.azure.com/azuredevopsdemos-a/AbelTailWind
+1. ビルドパイプラインとリリースパイプラインの削除 https://dev.azure.com/azuredevopsdemos-a/AbelTailWind
     - [Damovisa.ignite-tour-lp1s2 - CD](https://dev.azure.com/azuredevopsdemo-a/AbelTailWind/_release?view=mine)
     - [Damovisa.ignite-tour-lp1s2](https://dev.azure.com/azuredevopsdemo-a/AbelTailWind/_build_)
-1. Change [Testing In Production for ABTesting slot](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/e97f6c4e-c830-479b-81ad-1aff1dd07470/resourceGroups/AbelIgnite2018WServers/providers/Microsoft.Web/sites/AbelTailWindFrontEnd4/testingInProduction) to 0%
-1. Delete [ABTesting slot](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/e97f6c4e-c830-479b-81ad-1aff1dd07470/resourceGroups/AbelIgnite2018WServers/providers/Microsoft.Web/sites/AbelTailWindFrontEnd4/deploymentSlots)
-1. Delete az-pipelines.yml file
+1. 変更 [Testing In Production for ABTesting slot](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/e97f6c4e-c830-479b-81ad-1aff1dd07470/resourceGroups/AbelIgnite2018WServers/providers/Microsoft.Web/sites/AbelTailWindFrontEnd4/testingInProduction) to 0%
+1. 削除 [ABTesting slot](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/e97f6c4e-c830-479b-81ad-1aff1dd07470/resourceGroups/AbelIgnite2018WServers/providers/Microsoft.Web/sites/AbelTailWindFrontEnd4/deploymentSlots)
+1. `az-pipelines.yml` の削除
 1. [Remove marketplace app access to the ignite-tour-lp1s2 repo in GitHub](https://github.com/settings/installations/380745)
-1. go to `/src/Nav.js` and reset the heading
+1. `/src/Nav.js` に行き`heading`をリセットするand reset the heading
 ![](readmeImages/2018-11-28_15-56-20.png)
 
-## Session script
-
-### Slide Deck
-1. I am so excited to be here today to talk to you all about DevOps. Now, I know some of you are thinking, cool DevOps! And some others are probably thinking, DevOps? Who cares? That's just CI/CD Pipelines right? Why should I care about that?
+## セッションスクリプト 
+### スライドデック
+1. DevOps について皆さんとお話しできることをとても楽しみにしています。今、私はあなたが考えていることのいくつかを想像できます。
+クールなDevOps!そして、他の何人かはおそらく, DevOps?かまいません。CI/CD パイプラインですよね?なぜ気にする必要があるの?と考えて居ることでしょう
  ![](readmeImages/2018-11-09-09-25-15.png)
 
- 1. I can give you all the reasons and I can pull out charts and graphs to back up my statements. But I wanted to show you a short film that really personifies the difference of before and after DevOps
+ 1. 私はあなたにすべての理由を与えることができ、私は私の声明をバックアップするためにチャートやグラフを引き出すことができます。しかし、DevOps の前後の違いを実際に擬人的に示すショートフィルムを見せたかったのです。
 ![](readmeImages/2018-11-09-09-32-26.png)
+<iframe width="667" height="500" src="https://www.youtube.com/embed/RRy_73ivcms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1. ![](readmeImages/2018-11-09-09-33-37.png)
 
