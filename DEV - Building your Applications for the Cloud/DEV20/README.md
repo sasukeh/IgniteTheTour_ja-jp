@@ -1,10 +1,15 @@
-# アプリケーションをより迅速かつ安全に展開する
+# アプリケーションをより迅速かつ安全にデプロイする
 
-アプリケーションの展開は長年にわたり大きく変化し、面倒な手動タスクがスクリプト化されたルーチンに置き換えられました。クラウド サービスを使用すると、さらに簡単にご支援を行うことができます。
-この講演では、Azure サービスを使用してアプリケーションを自動化し、継続的にデプロイする方法について詳しく説明します。まず、A/B テストや自動承認ゲートなど、開発者が制御する自動化された操作 (DevOps) について話し合います。次に、Azure の新しい DevOps プロジェクトを使用してクラウドに完全に移行し、ボタンを数回クリックするだけでフロントエンド Web アプリケーション、バックエンド Web サービスとデータベース、モバイル アプリケーションのデプロイを自動化する方法を示します。
+アプリケーションのデプロイは長年にわたり大きく変化し、面倒な手動タスクがスクリプト化されたルーチンに置き換えられました。
+クラウドサービスを使用すると、さらに簡単に行うことができます。
 
+このセミナーでは、Azureのサービスを使用してアプリケーションのデプロイを自動化し、継続的にデプロイする方法について詳しく説明します。
 
-## 機能
+まず、A/B テストや自動承認ゲートなど、開発者が制御する自動化された操作 (DevOps) について話します。
+
+次に、`Azure DevOpsProject`を使用してアプリケーションをクラウドに移行するために、ボタンを数回クリックするだけでフロントエンドWebアプリケーション、バックエンドWebサービスとデータベース、モバイルアプリケーションのデプロイを自動化する方法を示します。
+
+## セミナーで紹介する機能
 
 このプロジェクトでは、次の例を示します。
 
@@ -21,34 +26,30 @@
 # デモ ウォークスルー:
 これは DevOps セッションのデモ スクリプトです。このセッションでは、
 
-- Github から Azure パイプラインへの CI Yaml ベースのパイプラインの作成。
+- Github から Azure パイプラインへの CI Yaml ベースのパイプラインの作成
 - ABテストで高度な開発のベストプラクティスを追加
 - Azure モニタリングを品質ゲートとして使用して、ステージ間に自動承認ゲートを追加する
 - Azure DevOps プロジェクトを使用して、任意の言語のプロジェクトを開始する高速トラック
-- 追い風取引のための現実世界のビルドとリリースパイプラインを歩きます。
-
+- 追い風取引のための現実世界のビルドとリリースパイプラインを歩きます
 
 ## セットアップ
-This session's demos are done using the browser and one instance of VSCode. Open up an instance of your favorite browser and have the following tabs.
 このセッションのデモは、ブラウザと VSCode の 1 つのインスタンスを使用して行われます。お気に入りのブラウザを開き、次のタブを保持してください。
 
 <!-- TODO: update properly links-->
-1. `Tab 1 - GitHub リポジトリ for tailwind front end` https://github.com/sasukeh/AbelTailWindFrontEnd
+1. `Tab 1 - GitHub リポジトリ for tailwind frontend` 
+https://github.com/sasukeh/AbelTailWindFrontEnd
 ![](readmeImages/2018-11-09-07-48-15.png)
-1. `Tab 2 - AzureのDevOpsダッシュボード ` https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/b490f4aa-5eaf-49d9-af61-3381ac839138
+1. `Tab 2 - Azureのポータル ` https://portal.azure.com/
 ![](readmeImages/2018-11-19-21-01-00.png)
-1. `Tab 3 - Tailwind Build All Up` https://dev.azure.com/azuredevopsdemo-a/AbelTailwindInventoryService/_apps/hub/ms.vss-ciworkflow.build-ci-hub?_a=edit-build-definition&id=27
+1. `Tab 3 - Tailwind Build All Up` 
 ![](readmeImages/2018-11-09-07-59-05.png) 
-1. `Tab 4 - Tailwind Release All Up` https://dev.azure.com/azuredevopsdemo-a/AbelTailwindInventoryService/_releaseDefinition?definitionId=1&_a=definition-pipeline
+1. `Tab 4 - Tailwind Release All Up` 
 ![](readmeImages/2018-11-09-09-09-09.png)
 1. `Tab 5 - Release Gate Docusign Example`
-https://msvstsdemo-a.visualstudio.com/YoCoreDemo/_releaseProgress?releaseId=10&_a=release-pipeline-progress
 ![](readmeImages/2018-11-09-09-10-39.png)
 1. `Tab 6 - Release Gate Dynatrace Unbreakable Pipeline Pass`
-https://msvstsdemo-a.visualstudio.com/AbelUnbreakablePipelineDemo/_releaseProgress?releaseId=275&_a=release-pipeline-progress
 ![](readmeImages/2018-11-09-09-11-41.png)
 1. `Tab 7 - Release Gate Dynatrace Unbreakable Pipeline Fail`
-https://msvstsdemo-a.visualstudio.com/AbelUnbreakablePipelineDemo/_releaseProgress?releaseId=276&_a=release-pipeline-progress
 ![](readmeImages/2018-11-09-09-12-34.png)
 
 別のブラウザを開きます。Chromeを使用して最初のセットを開いた場合は、Firefox または Edge を使用してください。このブラウザで 2 つのタブを開きます。
