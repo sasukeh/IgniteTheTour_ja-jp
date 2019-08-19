@@ -82,49 +82,50 @@ https://msvstsdemo-a.visualstudio.com/AbelUnbreakablePipelineDemo/_releaseProgre
 
  1. 私はあなたにすべての理由を与えることができ、私は私の声明をバックアップするためにチャートやグラフを引き出すことができます。しかし、DevOps の前後の違いを実際に擬人的に示すショートフィルムを見せたかったのです。
 ![](readmeImages/2018-11-09-09-32-26.png)
-<iframe width="667" height="500" src="https://www.youtube.com/embed/RRy_73ivcms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. ![](readmeImages/2018-11-09-09-33-37.png)
+1. ![https://www.youtube.com/watch?time_continue=128&v=RRy_73ivcms](readmeImages/2018-11-09-09-33-37.png)
 
-1. And THAT is why we need to do DevOps!!! NOT the way we used to. All hitting servers with hammers tryng to get our code to deploy once a year. We need to be a well oiled machine like that pit crew! Continuously delivering value!
+1. このようにビジネスに対応するためにDevOps を行う必要があります。年に一度私たちのコードを展開しようとする、昔のやり方を持つサーバではなく、ピットクルーのように油を注ぐ機械にする必要があり、継続的に価値を提供しなければなりません。
 
-1. Now I've mentioned DevOps a lot, but what exactly is DevOps. I bet if I ask 10 people in this room what DevOps is, we will get 10 different responses. And I'm not saying anyone elses definition is wrong. But in order to frame this conversation we are having, let me give you Microsoft's Definintion of DevOps
+1. 今、私はDevOpsについて多く言及しましたが、正確にはDevOpsとは何ですか。この部屋の10人にDevOpsとは何かを尋ねると、10種類の回答が得られます。そして、私は他の誰かの定義が間違っていると言っているわけではありません。しかし、私たちが持っているこの会話をフレーム化するために、私はあなたにDevOpsのマイクロソフトの定義をお伝えします。
 ![](readmeImages/2018-11-09-09-36-39.png)
 
-1. At Microsoft, DevOps is something very specific. Devops is the union of people, process and products to enable the continous delivery of value to our end users. Now notice I said that super carefully. I didn't say continously deliver code. Because what will that give us, just piples and piles of code that's no use to our end users. And notice, I didn't even say continously deliver features. Because we could be delivering feature after feature, but if we are not delivering value, we are just wasting time!
+1. マイクロソフトでは、DevOps は非常に特殊なものです。Devops は、エンド ユーザーに継続的に価値を提供できるようにする、人、プロセス、および製品の結合です。今、私は超慎重に言ったことに気づく。私はコードを絶え間なく提供しているとは言っていませんでした。それは私たちに与えるものので、ちょうど私たちのエンドユーザーに役に立たないコードのパイルと山。そして、気づき、私は継続的に機能を提供することさえ言っていませんでした。機能の後に機能を提供できる可能性がありますが、価値を提供していない場合は、時間を無駄にするだけです。
 ![](readmeImages/2018-11-09-09-38-08.png)
 
-1. Now why is this important? Why do should we care about DevOps. The speed of business today is SO fast, that we must adopt DevOps best practices just to keep up. If we don't, our competitors either have or they will adopt DevOps best practices. And whey they do, they WILL out innovate us and they WILL render us obsolete. And no one wants to be rendered obsolete.
+1. なぜこれが重要なのでしょうか?なぜDevOpsを気にする必要があります。今日のビジネスのスピードは非常に速いので、DevOps のベスト プラクティスを採用する必要があります。そうしないと、競合他社は DevOps のベスト プラクティスを採用するか、採用します。そして、彼らはそうする、彼らは私たちを革新し、彼らは私たちを時代遅れにします。そして、誰も時代遅れにされたいと思いません。
 ![](readmeImages/2018-11-09-09-40-39.png)
-1. This isn't just theory anymore. We now have the cold hard imperical facts that cleary demonstrate this. Adopting DevOps best practices means you are faster to market, you have lower failure rates. Much faster lead time for changes and much faster Mean time to recover. And what does all of this translate into? INCREASED REVENUE!
+1. これはもはや単なる理論ではありません。私たちは今、これを明確に示す冷たいハードインペリック事実を持っています。DevOps のベスト プラクティスを採用すると、市場投入速度が速く、故障率が低くなります。変更のリードタイムがはるかに速く、平均復旧時間がはるかに速くなります。そして、このすべては何に変換されますか?収益の増加!
 ![](readmeImages/2018-11-09-09-42-09.png). 
 
-1. To implement DevOps successfully, you have to attack all three pillars when writing software. You must address the People, the Process and the Products
+1. DevOps を正常に実装するには、ソフトウェアを作成するときに 3 つの柱をすべて攻撃する必要があります。人、プロセス、製品に対応する必要があります。
 ![](readmeImages/2018-11-09-09-45-07.png)
 
-1. For the people portion, that's the toughest change to make. This is a cultural shift that needs to take place in the organization. Where everybody from the top down all become hyperfocused on continuously delivering value. I don't want to hear, well, that's how we always do things from anyone. Everyone needs to focus on continuously delivering vaue. ![](readmeImages/2018-11-09-09-52-52.png)
+1. 人々の部分にとって、それは最も難しい変化です。これは、組織で行われる必要がある文化的なシフトです。トップダウンの誰もが、継続的に価値を提供することに重点を置く場所。私は、まあ、私たちは常に誰からも物事を行う方法を聞きたくありません。誰もが継続的にvaueを提供することに焦点を当てる必要があります。
+![](readmeImages/2018-11-09-09-52-52.png)
 
-1. For the process, we need to have a process that will let us interate fast enough, yet still deliver code of high enough quality. So what does that mean? I need to be able to plan my sprints, and I need to be able to check my code in and out while tracking against the work I'm doing. And as I'm checking code in and out? Builds need to kick off. Automated Tests need to be run. Security scans need to happen. And if the build are good, an automated system needs to pick up my bits and deploy them into my Dev, QA, UAT all the way out in to production. And why does this need to be automated? Potentially, this can happen many times a day! So we need to make sure the process is consistent and repeatable. Every single time like clock work. And once the code reaches production, it doesn't end there. We still need to be able to monitor our code in production. We need to know things like, is my app up or down, is my app performing well, and what are users really doing in my app? Because answers to those questions let me know if I'm delivering vaue to my end users. And if I am, we can double down on those types of activities in the next sprint. And if we aren't, then we can quickly reprioritize our backlog and course correct.![](readmeImages/2018-11-09-09-54-28.png)
+1. プロセスでは、十分な速さでインターテートし、それでも十分な品質のコードを提供できるプロセスが必要です。どういう意味なの?スプリントを計画できる必要があり、自分が行っている作業を追跡しながらコードをチェックインおよびチェックアウトできる必要があります。そして、私はコードをチェックインし、チェックアウトしているように?ビルドを開始する必要があります。自動テストを実行する必要があります。セキュリティ スキャンを行う必要があります。ビルドが良好な場合、自動化されたシステムは私のビットをピックアップし、私の開発、QA、UATにデプロイする必要があります。そして、なぜこれを自動化する必要があるのでしょうか?潜在的に、これは1日に何度も起こる可能性があります!そのため、プロセスの一貫性と繰り返し可能性を確認する必要があります。時計の仕事のように毎回。そして、コードが運用環境に到達すると、それはそこで終わりません。運用環境でコードを監視できる必要があります。私たちは、アプリが上下しているか、アプリがうまく動作しているか、ユーザーが実際にアプリで何をしているのかを知る必要があります。これらの質問に対する答えは、私がエンドユーザーにvaueを提供しているかどうかを私に知らせるからです。もしそうなら、次のスプリントでこれらのタイプの活動を倍増することができます。そうでない場合は、バックログとコースの正しい優先順位をすぐに変更できます。![](readmeImages/2018-11-09-09-54-28.png)
 
-1. Now all of this requires the right products and tools to help enable all of this. So we need tools that will let us track our work throughout our sprint. We need source control systems that can corrolate our work to our checkins. We need automated build and release systems that can build on everycheckin, run all of our unit tests and automate deployment all the way to production. And we need systems in place to monitor our app in production. 
+1. このすべてを有効にするのに役立つ適切な製品とツールが必要です。そのため、スプリント全体を通じて作業を追跡できるツールが必要です。私たちは、私たちのチェックインに私たちの仕事を腐食させることができるソース管理システムが必要です。すべてのチェックインに基づいて構築し、すべての単体テストを実行し、運用環境に至る展開を自動化できる自動ビルドおよびリリース システムが必要です。また、本番環境でアプリを監視するシステムが必要です。
 ![](readmeImages/2018-11-09-09-58-25.png)
 
-1. Out there in the world, there are all sorts of tools that do these things. And Azure is an open system, which means you can keep using all of the DevOps tools you are most familiar with.
+1. 世の中には、こういうことをする道具がたくさんあります。Azure はオープン システムであり、最もよく知られているすべての DevOps ツールを引き続き使用できます。
 ![](readmeImages/2018-11-09-10-00-45.png)
 
-1. However, you can replace ALL of them with just one product. Azure DevOps
+1. ただし、それらのすべてを 1 つの製品に置き換えることができます。Azure DevOpsです。
 ![](readmeImages/2018-11-09-10-01-40.png)
 
-1. Azure DevOps is literally everything you need to take an idea and turn that idea into a working piece of software in the hands of your end users, for ANY language targeting ANY platform. Azure DevOps is a suite of 5 sepparate products that work SEAMLESSLY together. There's a work item tracking product called Azure Boards, where you can track any unit of work in your software project with visual tools to help you manage all of your work. There is Azure Pipelines, where you can build yout your CI/CD pipelines for any language targeting any platform. There is Azure Repos where you can host your own Git repo or a centralized version control system. There is Azure Test Plans for you to create, plan and run all of your manual tests. And finally there is Azure Artifacts, where you can host your package management systems, whethere they be nuget, maven or even generic packages.
+1. Azure DevOps は、文字通り、任意のプラットフォームを対象とする任意の言語に対して、アイデアを取り入れ、そのアイデアをエンド ユーザーの手に渡すソフトウェアに変換する必要があるすべてです。Azure DevOps は、シームレスに連携する 5 つのセパレート製品のスイートです。Azure Boards と呼ばれる作業項目の追跡製品があり、すべての作業を管理するのに役立つビジュアル ツールを使用して、ソフトウェア プロジェクト内の任意の作業単位を追跡できます。Azure パイプラインがあり、任意のプラットフォームを対象とする任意の言語に対して CI/CD パイプラインを構築できます。独自の Git リポジトリまたは一元化されたバージョン管理システムをホストできる Azure リポジトリがあります。すべての手動テストを作成、計画、および実行するための Azure テスト計画があります。最後に、パッケージ管理システムをホストできる Azure Artifacts が登場します。
+
 ![](readmeImages/2018-11-09-10-03-00.png)
 
-1. In today's session, we will be concentrating on Azure Pipelines, where we will deploy our code faster yet safer!
+1. 本日のセッションでは、Azure Pipeline に集中し、コードをより速く、より安全にデプロイします。
 ![](readmeImages/2018-11-09-10-06-46.png)
 
 ### Demo
 [Bring up main browser with all the tabs and bring up tab 1]
 
-So the code for TailWind is all in github, and we need to build a CI/CD pipeline from github to Azure Pipelines. That's super easy to do with the Azure Pipelines market place extension. Lets go into the marketplace and search for the Azure Pipeline Extension
+TailWind のコードはすべて github にあり、github から Azure パイプラインに CI/CD パイプラインを構築する必要があります。これは、Azure パイプライン市場の場所拡張で行うのは非常に簡単です。マーケットプレースにアクセスして、Azure パイプライン拡張機能を検索できます。
 
 ![](readmeImages/2018-11-09-10-50-00.png)
 
@@ -132,7 +133,7 @@ So the code for TailWind is all in github, and we need to build a CI/CD pipeline
 
 ![](readmeImages/2018-11-09-10-52-12.png)
 
-I've already installed the extension so let's just go in and configure this
+拡張機能を既にインストールしているので、この拡張機能を設定してみましょう
 
 ![](readmeImages/2018-11-09-10-52-57.png)
 
@@ -140,17 +141,17 @@ I've already installed the extension so let's just go in and configure this
 
 ![](readmeImages/2018-11-09-10-53-55.png)
 
-And we will configure it to create a CI pipeline for our Tailwind Front End repo
+そして、テールウィンドフロントエンドレポのCIパイプラインを作成するように構成します。
     
 ![](readmeImages/2018-11-09-10-55-14.png)
 
-This takes us to the login screen of Azure DevOps
+これにより、Azure DevOps のログイン画面が表示されます。
 
 ![](readmeImages/2018-11-09-10-56-02.png)
 
 ![](readmeImages/2018-11-09-10-57-27.png)
 
-Where it will take you through a wizard to help you set up a CI pipeline quickly
+CI パイプラインをすばやくセットアップするのに役立つウィザードを使用する場合
 
 ![](readmeImages/2018-11-09-12-10-36.png)
 
@@ -158,17 +159,17 @@ Where it will take you through a wizard to help you set up a CI pipeline quickly
 
 ![](readmeImages/2018-11-09-14-16-38.png)
 
-Notice Azure Pipelines analyzes the repo and offers you templates that make sense for the technolgogies and languages in your repo. This repo is a node.js app so let's chose the Node.js template
+Azure Pipelines はリポジトリを分析し、リポジトリ内のテクノロジと言語に適したテンプレートを提供します。このリポジトリは node.js アプリなので、Node.js テンプレートを選択してみましょう
 
 ![](readmeImages/2018-11-09-14-18-15.png)
 
-This creates for us an **azure-pipelines.yml** file. So it creates for you a yaml build pipeline. The build engine in Azure pipelines is basically a task runner. It does one task after another after another. And you can describe the tasks either with a visual editor or with a yaml file. There are many benefits to using yaml builds or **Pipeline as Code**. Primarily, now your build pipeline is checked right into source control so your build pipeline is versioned right alongside your source code. If you need more info on yaml builds, just follow the docs link which will take you to our docs page which descrive everything you will need to know.
+これにより、**azure-pipelines.yml** ファイルが作成されます。したがって、yaml ビルド パイプラインが作成されます。Azure パイプラインのビルド エンジンは、基本的にタスク ランナーです。次から次へとタスクを実行します。また、ビジュアル エディタまたは yaml ファイルを使用してタスクを記述することもできます。yaml ビルドまたは **パイプラインを Code**として使用すると、多くの利点があります。主に、ビルド パイプラインがソース管理に正しくチェックインされ、ビルド パイプラインがソース コードと一緒にバージョン管理されます。yaml ビルドに関する詳細情報が必要な場合は、ドキュメントのリンクに従ってください。
    
 ![](readmeImages/2018-11-09-14-23-27.png) 
    
 ![](readmeImages/2018-11-09-14-24-23.png)
 
-Let's go ahead and save and run this build
+このビルドを保存して実行してみましょう
 
 ![](readmeImages/2018-11-09-14-26-03.png)
 
@@ -176,190 +177,191 @@ Let's go ahead and save and run this build
 
 ![](readmeImages/2018-11-09-14-27-39.png)
 
-This saves the azure-pipeines.yml file into our git repo which in turn fires off our build. And what happens in the build?  First it downloads all the source code from git hub, then it executes the build steps described in the yml file. So in our case it does
+これにより、azure-pipeines.yml ファイルが git リポジトリに保存され、ビルドが起動します。ビルドでは何が起こるのでしょうか? 最初に git hub からすべてのソース コードをダウンロードし、次に yml ファイルに記述されているビルド ステップを実行します。私たちの場合はそうです
 
- - Downloads the source code
- - Installs Node.js
- - Does an npm install and build
+- ソースコードをダウンロードします
+- Node.js をインストールします。
+- npm のインストールとビルドを行います
 
-Now this is fine but I want to customize the build a little, and I want to show you all what the visual editor looks like. So let's hope into the visual editor
+今、これは問題ありませんが、私は少しビルドをカスタマイズしたいと私はビジュアルエディタがどのように見えるかをすべて示したいと思います。それでは、ビジュアルエディタに期待してみましょう
 
 ![](readmeImages/2018-11-09-14-38-59.png)
 
 ![](readmeImages/2018-11-09-14-40-24.png)
 
-So here, you can see each individual step and now, i'm configuring my build to 
+ここでは、個々のステップを見ることができ、今、私は私のビルドを構成しています
 
-   - Install npm
-   - Setup the DB connection strings
-   - Build the app because we are creating a staic web app out of the node.js app
-   - Zip everything up so it's ready to be deployed
-   - publish the zip of the website as our build artifact back to Azure Pipelines
+- npm をインストールする
+- DB 接続文字列のセットアップ
+- node.js アプリから staic Web アプリを作成しているため、アプリをビルドします。
+- 展開の準備が整ったように、すべてを圧縮します
+- ビルドアーティファクトとして Web サイトの zip を Azure パイプラインに公開する
 
-The build system in Azure Pipelines is 100% configurable to do ANYTHING. Any language targeting any platform! And the way you customize this build is by adding and removing tasks.
+Azure パイプラインのビルド システムは、何でも行うための 100% 構成可能です。任意のプラットフォームをターゲットに任意の言語!このビルドをカスタマイズする方法は、タスクを追加および削除することです。
 
 ![](readmeImages/2018-11-09-14-48-23.png)
 
 ![](readmeImages/2018-11-09-14-49-20.png)
 
-Where out of the box, there are a little over a hunred tasks that you can drag over to the left and just start using.
+箱から出すところには、左にドラッグして使用を開始できる、フンドタスクの上に少しあります。
 
-And what if hyou want to do something that's not out of the box?
+箱から出さない何かをしたいのなら?
 
 ![](readmeImages/2018-11-09-14-52-17.png)
 
-Not a big deal, just go to our marketplace where our partners have created over 500 build and release tasks that you can just download and start using.
+大したことではないが、私たちのパートナーが500以上のビルドとリリースタスクを作成した市場に行くだけで、ダウンロードして使用を開始できます。
 
-And if you want to do something that's not out of the box and not in the marketplace? It's still not a problem because you can write your own custom tasks. Custom tasks are nothing more than powershell or node.js. So what that means is that anything you can do from the command line, you can easily get this build and release system to do as well. Which translates into you can make this build and release system do ANYTHING! Any language targeting any platform!
+そして、あなたは箱から出ておらず、市場ではない何かをしたい場合は?独自のカスタム タスクを作成できるため、問題はありません。カスタム タスクは、powershell または node.js 以外の何物でもない。つまり、コマンド ラインからできることは何でも簡単にこのビルドとリリース システムを取得できます。これは、このビルドとリリースシステムは何でも行うことができます!任意のプラットフォームをターゲットに任意の言語!
 
-Ok, so we have a visual build that describe the customized build that I want to happen, so the easiest way to add this to our YAML build is to 
+さて、私は起こりたいカスタマイズされたビルドを説明するビジュアルビルドを持っているので、YAMLビルドにこれを追加する最も簡単な方法は、
 
 ![](readmeImages/2018-11-09-14-55-49.png)
 
-view the yaml that gets generated by this visual build
+このビジュアル ビルドによって生成される yaml を表示する
 
-Let's go ahead and copy it, and then we'll just paste this into our azure-pipelines.yml file
+先に進んでコピーしてから、これを azure-pipelines.yml ファイルに貼り付けます。
 
 ![](readmeImages/2018-11-09-14-56-59.png)
 
-Let's go back into VSCode and we'll pull down the latest changes with a git pull
+VSCode に戻り、最新の変更を git プルでプルダウンします。
 
 ![](readmeImages/2018-11-09-14-58-24.png)
 
-and now let's paste the yaml and replace everything in azure-pipelines.yml 
+そして今、yamlを貼り付け、azure-pipelines.ymlのすべてを置き換えてみましょう
 
 ![](readmeImages/2018-11-09-15-00-32.png)
 
-And now lets push that yaml file back into GitHub. And once the code hits github, it will kick off a new build
+そして今、そのyamlファイルをGitHubにプッシュしてみましょう。そして、コードがgithubにヒットすると、新しいビルドが始まります
 
 ![](readmeImages/2018-11-09-15-06-54.png)
 
 ![](readmeImages/2018-11-09-15-07-14.png)
    
-And what's this build doing? It's downloading the latest source from github, including the azure-pipelines.yml file. It then kicks off a build and executes the build steps described in the yml file! Pipeline as code!!!. And then it will
+このビルドは何をしていますか?azure-pipelines.yml ファイルを含む最新のソースを github からダウンロードしています。次にビルドを開始し、yml ファイルに記述されているビルド ステップを実行します。パイプラインをコードとして使用します!!!.そして、それは
 
-   - Do an npm install
-   - Setup my db connections
-   - Build app
-   - zip up the website so it's ready to be deployed
-   - publish the zip file as the build artifact for this build back to Azure Pipelines
+- npm のインストールを行う
+- db 接続の設定
+- アプリのビルド
+- 展開の準備ができているようにウェブサイトをジッパーアップ
+- このビルドのビルド成果物として zip ファイルを Azure パイプラインにパブリッシュする
 
-Oh and if you notice, right now, I'm just hardcoding my database end points. If we want to become more secure, we can even store secrets in the pipeline and then use the secrets in the yaml file. 
+ああ、あなたが気づいた場合は、今、私はちょうど私のデータベースのエンドポイントをハードコーディングしています。より安全にしたい場合は、パイプラインにシークレットを保存し、yaml ファイル内のシークレットを使用することもできます。
 
-To set up secrets let's edit our build
+シークレットを設定するには、ビルドを編集してみましょう
 
 ![](readmeImages/2018-11-09-15-11-11.png)
 
 ![](readmeImages/2018-11-09-15-13-28.png)
 
-Where we can now add variables, lock them to encrypt it and now, if we go back to our azure-pipelines.yml file, we can reference the secret build variables by adding line 32 and 33
+ここで変数を追加し、それらをロックして暗号化し、azure-pipelines.yml ファイルに戻ると、32 行目と 33 行目を追加して秘密のビルド変数を参照できます。
 
 ![](readmeImages/2018-11-09-15-15-56.png)
 
-Ok, looks like our build has completed
+はい、ビルドが完了したように見えます
 
 ![](readmeImages/2018-11-09-15-17-08.png)
 
-And we get a nice build report that shows everything that happened during the build includeing tests. 
+また、ビルド中に発生したすべてのテストを示す優れたビルド レポートが表示されます。
 
 ![](readmeImages/2018-11-09-15-17-42.png)
 
-We can even examine the build artifact by clicking on the drop
+ドロップをクリックしてビルドアーティファクトを調べることさえできます。
 
 ![](readmeImages/2018-11-09-15-19-02.png)
 
-Where you can see we created a zip file of the website
+あなたが見ることができる場所は、我々はウェブサイトのzipファイルを作成しました
 
 ![](readmeImages/2018-11-09-15-19-29.png)
 
-So just like that, we can create a build pipeline. But we still need to create a release pipeline to release this app. To do that, we'll just click on the Release button
+このように、ビルド パイプラインを作成できます。しかし、我々はまだこのアプリをリリースするためにリリースパイプラインを作成する必要があります。これを行うには、[リリース] ボタンをクリックするだけです。
 
 ![](readmeImages/2018-11-09-15-20-41.png)
 
-Which brings up the visual editor for the release pipeline. Tailwind Traders website will be hosted in Azure App Service, so we can just select the Azure App Service Deployment Template
+リリース パイプラインのビジュアル エディタが表示されます。Tailwind Traders の Web サイトは Azure アプリ サービスでホストされます。
 
 ![](readmeImages/2018-11-09-15-22-21.png)
 
-And now we just need to finish configuring the release. To configure a release, first we create the stage or environment. The first environment I want to deploy to is my staging environment so I'll replace the name with `Staging`
+これで、リリースの構成を完了する必要があります。リリースを構成するには、まずステージまたは環境を作成します。最初にデプロイする環境はステージング環境なので、名前を 「ステージング」に置き換えます。
+
 
 ![](readmeImages/2018-11-09-15-24-17.png)
 
-After defining your stage, next, you get to define the steps that will happen to deploy your app to that stage. So clicking on the steps link will take us to the task runner for this stage.
+ステージを定義した後、次に、そのステージにアプリをデプロイする手順を定義します。したがって、ステップリンクをクリックすると、このステージのタスクランナーに案内されます。
 
 ![](readmeImages/2018-11-09-15-25-22.png)
 
-And since we've already selected the App Service Deployment template, there's not a whole lot of configuring left to do. We just need to chose our azure subscription and chose the app service we want to deploy to. In this case, I want to deploy to the Tailwind Front End staging app service.
+また、App Service デプロイメント テンプレートを既に選択しているため、構成が残っているわけではありません。Azure サブスクリプションを選択し、デプロイ先のアプリ サービスを選択するだけで済みます。この場合、Tailwind フロント エンド ステージング アプリ サービスにデプロイします。
 
 ![](readmeImages/2018-11-09-15-27-16.png)
 
-Now that we have defined a stage, and defined the steps needed to deploy my app, we can choose manual approvers before and after each stage. For the Staging environment, let's just create a post depoyment approver. That way, if a new build kicks off, it will automatically deploy into my staging environment with no manual intervention
+ステージを定義し、アプリの展開に必要な手順を定義したので、各ステージの前後に手動承認者を選択できます。ステージング環境では、ポストデポイメント承認を作成してみましょう。これにより、新しいビルドが開始された場合、手動による介入なしでステージング環境に自動的にデプロイされます。
 
 ![](readmeImages/2018-11-09-15-29-23.png)
 
 ![](readmeImages/2018-11-09-15-33-43.png)
 
-I'll just add myself as a manual approver for this demo. You can add a list of people where everyone on the list has to approve before it will pass through the manual gate. or you can create a group of people and if one person in the group approves, it will pass through the gate. Or you can use a combintion of lists and groups. So you can tighten down security as much as you need to.
+このデモの手動承認者として自分自身を追加します。手動ゲートを通過する前に、リストの全員が承認する必要があるユーザーのリストを追加できます。または、ユーザーのグループを作成し、グループ内の 1 人が承認した場合、ゲートを通過します。または、リストとグループの組み合わせを使用することもできます。そのため、必要な量にセキュリティを強化できます。
 
-Now, let's add another stage to deploy to our production environment. Hover over the environment and select clone to clone the environment.
+次に、運用環境に展開する別のステージを追加します。環境にカーソルを合わせると、クローンを選択して環境のクローンを作成します。
 
 ![](readmeImages/2018-11-09-15-35-50.png)
 
-And we will name the new stage Prod
+そして、私たちは新しいステージProdに名前を付けます
 
 ![](readmeImages/2018-11-09-15-46-22.png)
 
-And now we need to tweak the release steps a little bit so it deploys to the production environment.
+次に、リリース手順を少し調整して、運用環境に展開する必要があります。
 
-Click on the steps in the prod environment 
+prod 環境の手順をクリックします。
 
 ![](readmeImages/2018-11-09-15-48-12.png)
 
-And change the app service to the production app service.
+アプリ サービスを運用アプリ サービスに変更します。
 
 ![](readmeImages/2018-11-09-15-48-41.png)
 
-Click save and voila! We just created a release pipeline that releases Tailwind Traders front end into the staging environment, and then after approvers into the production environment.
+保存とボイラをクリックしてください!Tailwind Traders のフロントエンドをステージング環境にリリースし、承認者を運用環境にリリースするリリース パイプラインを作成しました。
 
-Let's see the release in action so we'll click release and click Create Release
+リリースをクリックして [リリースの作成] をクリックします。
 
 ![](readmeImages/2018-11-09-15-50-51.png)
 
-And then we'll creat a release using the latest build by clicking Create
+次に、[作成] をクリックして最新のビルドを使用してリリースを作成します。
 
 ![](readmeImages/2018-11-09-15-51-44.png)
 
 ![](readmeImages/2018-11-09-15-52-21.png)
 
- Where we can now watch the release happen live. 
+リリースがライブで行われるのを見ることができる場所。
  ![](readmeImages/2018-11-09-15-52-52.png)
 
-And what is happening? The release is going to the build's drop location. It's going to pick up the deployment bits from the drop location and it will deploy those bits into the staging environment based off of the steps that we configured for the staging stage.
+何が起きてるの?リリースはビルドのドロップ場所に向かいます。ドロップの場所からデプロイメント ビットをピックアップし、ステージング ステージ用に構成した手順に基づいてステージング環境にそれらのビットをデプロイします。
 
 ![](readmeImages/2018-11-09-15-55-57.png)
 
-Just like with the build the release is fully customizable where you can make it do anything. It's just a task runner, so like the build pipeline, you customize the release steps by adding and removing task runner. Out of the box, you get hundreds of tasks with many hundreds more coming from the marketplace. And you can write your own custom tasks that can make this release system do anything.
+ビルドと同様に、リリースは完全にカスタマイズ可能で、何でも行うことができます。これは単なるタスク ランナーなので、ビルド パイプラインと同様に、タスク ランナーを追加および削除してリリース手順をカスタマイズします。何百ものタスクが市場から来ています。また、このリリース システムで何でも実行できる独自のカスタム タスクを作成できます。
 
 ![](readmeImages/2018-11-09-15-57-01.png)
 
-Ok, looks like the release finished release in the staging environment and it is now waiting for a post deployment approval
+[OK] をクリックすると、ステージング環境でリリースが完了したように見え、展開後の承認を待っています。
 
 ![](readmeImages/2018-11-09-15-58-58.png)
 
 ![](readmeImages/2018-11-09-15-59-50.png)
 
-Before we approve it, let's check out our staging environment to see if the new code actually go deployed.
+承認する前に、ステージング環境を確認して、新しいコードが実際にデプロイされているかどうかを確認します。
 
-- Bring up browser with the front end in the two tabs, bring up tab 1
+- 2つのタブでフロントエンドを持つブラウザを起動し、タブ1を起動します
 
   ![](readmeImages/2018-11-09-16-00-54.png)
 
-- Click refresh
+- [更新] をクリックします。
      
   ![](readmeImages/2018-11-09-16-02-23.png)
 
-And Voila! Code deployed into the staging environment!
+ボイラ!ステージング環境にデプロイされたコード!
 
-We can now go back to Azure Pipelines, and click the post deployment approval
+Azure パイプラインに戻り、デプロイ後の承認をクリックできるようになりました。
 
 ![](readmeImages/2018-11-10-07-07-47.png)
 
@@ -367,23 +369,23 @@ We can now go back to Azure Pipelines, and click the post deployment approval
 
 ![](readmeImages/2018-11-10-07-08-33.png)
 
-And now the code flows into the Prod environent
+そして今、コードはProd環境に流れ込む
 
 ![](readmeImages/2018-11-10-07-09-12.png)
 
-And what is it doing? Release management is going to the drop location for this specific build. The very same drop location where it picked up the bits for staging. And it will deploy the EXACT same bits it deployed into staging will now be deployed into production. There is no new build that's kicked off. There's no way stray code can slip in. Its the exact same bits.
+何してるの?リリース管理は、この特定のビルドのドロップ場所に配置されます。ステージング用のビットをピックアップしたのとまったく同じドロップ場所。また、ステージングにデプロイしたのとまったく同じビットを運用環境にデプロイします。開始された新しいビルドはありません。迷子のコードが入り込む方法はありません。まったく同じビットです。
 
-Ok, looks like the bits have been deployed and we are now waiting for a post deployment approval.
+[OK] をクリックすると、ビットがデプロイされ、展開後の承認が待っています。
 
-Let's check out production
+生産をチェックしよう
 
 ![](readmeImages/2018-11-10-07-11-24.png)
 
-And refresh
+そしてリフレッシュ
 
 ![](readmeImages/2018-11-10-07-11-35.png)
 
-And Bam!  New code deployed all the way to prod. So now I'll approve the post deployment approval
+バム! 新しいコードは、prod にすべての方法を展開しました。だから今、私はポスト展開の承認を承認します
 
 ![](readmeImages/2018-11-10-07-12-21.png)
 
@@ -391,202 +393,206 @@ And Bam!  New code deployed all the way to prod. So now I'll approve the post de
 
 ![](readmeImages/2018-11-10-07-12-33.png)
 
-And now, we have built our first build and release pipeline where any checkin from github will kick off our build and release through staging all the way into production.
+そして今、私たちは最初のビルドとリリースパイプラインを構築し、githubからのチェックインは、ステージングを通じてビルドとリリースを開始します。
 
-Cool huh?
+クールだろ?
 
-But you know what? we can do even better. Remember Azure Pipelines is fully customizable where we can make the release system do anything. Including Advanced DevOps best practices. Things like Blue Green deployments, where we first deploy into an environment that's an exact replica of what's in production. Do our testing in it, and when we r ready, we swap production with the BlueGreen environment. So now, what was in production is in my BlueGreen spot and what was in my Blue Green spot is now in production. Something like that is easily doable using Azure Pipelines. Even something like AB Testing, where we deploy new code and route just some of the traffic, like 10% to the new code and route the rest of the traffic to the old code. This way, we can slowly and carefully gather telemetry, make sure we are delivering value. And if things look good, we can slowly bump up the traffic to 20, 30 eventually 100 percent.
+でも 知ってる?私たちはさらに良いことができます。Azure パイプラインは、リリース システムで何でも実行できる完全にカスタマイズ可能であることを覚えておいてください。高度な DevOps のベスト プラクティスを含む。Blue Green のデプロイなど、最初に運用環境の正確なレプリカである環境にデプロイします。テストを行い、準備ができたら、BlueGreen 環境と生産を入れ替えます。だから今、生産にあったものは私のブルーグリーンスポットにあり、私のブルーグリーンスポットにあったものは、現在生産中です。このような操作は、Azure パイプラインを使用して簡単に実行できます。AB テストのようなものでも、新しいコードを展開し、新しいコードに 10% のようにトラフィックの一部だけをルーティングし、トラフィックの残りの部分を古いコードにルーティングします。これにより、テレメトリをゆっくりと慎重に収集し、価値を提供していることを確認できます。物事が良く見える場合は、トラフィックを 20、30 最終的には 100% にゆっくりと増やすことができます。
 
-In fact, using the power of Azure Pipelines and Azure App service, this is really pretty trivial to do. Check this out.
+実際、Azure パイプラインと Azure App サービスの力を使用して、これは本当に簡単です。これがいいと思います。
 
 [Go back to main browser,  `Tab 2 - Tailwind Front End App Service in Portal`]
 
-Here is the azure portal page for my app service which is hosting the Tailwind Traders front end.
+テールウィンド トレーダーのフロントエンドをホストしているアプリ サービスの Azure ポータル ページを次に表示します。
 
 ![](readmeImages/2018-11-10-16-31-18.png)
 
-To implement AB testing, scroll down to **Development Tools** and select **Testing In Production**
+ABテストを実装するには、**開発ツール**までスクロールし、生産における**テストを選択します**
 
 ![](readmeImages/2018-11-10-16-38-42.png)
 
-Here we get to add a deployment slot. Deployment slots are... think of them like a virtual directory for your web app. 
+ここでは、配置スロットを追加します。展開スロットは...Web アプリの仮想ディレクトリと考えてください。
 
 ![](readmeImages/2018-11-10-16-39-37.png)
 
-We'll create a slot and then we can direct what percentage of the traffic we want routed to what slot.
+スロットを作成し、どのスロットにルーティングするトラフィックの割合を指示します。
 
-I'll name this new slot **ABTesting**
+私はこの新しいスロットに名前を付けます **ABTesting**
 
 ![](readmeImages/2018-11-10-16-41-09.png)
 
-And this creates me my slot. Now, I just need to add in the percentage of traffic that I want to route to the slot. For this demo, I'll pick 50%.
+そして、これは私のスロットを作成します。次に、スロットにルーティングするトラフィックの割合を追加するだけです。このデモでは、50%を選びます。
 
 ![](readmeImages/2018-11-10-16-42-35.png)
 
-And that's all I need to do on the infrastructure side. To implement AB testing in my pipeline, all I'll need to do is make some simple changes.
+インフラストラクチャ側で行う必要があるのはそれだけです。パイプラインで AB テストを実装するには、簡単な変更を行う必要があります。
 
 [Bring up browser tab with Azure Pipeline]
 
 ![](readmeImages/2018-11-12-08-09-39.png)
 
-First, I'm going to clone my prod environment and we'll call it Prod B
+まず、Prod 環境のクローンを作成し、それを Prod B と呼びます。
 
 ![](readmeImages/2018-11-12-08-11-45.png)
 
 ![](readmeImages/2018-11-12-08-12-08.png)
 
-Next, I'll rename my Prod stage to Prod A
+次に、Prod ステージの名前を Prod A に変更します。
 
 ![](readmeImages/2018-11-12-08-12-48.png)
 
-And we do need to tweak the deployment step, because instead of deploying the new code to the production slot, we will deploy the new code to the ABTesting slot we just created 
+また、新しいコードを運用スロットに展開する代わりに、新しいコードを作成した ABTesting スロットに展開するため、展開手順を調整する必要があります。
 
 ![](readmeImages/2018-11-12-08-16-41.png)
 
-And save and Bam. That's all we have to do. Now, to see this in action let's go make some code changes.
+そして、保存し、バム。それだけださて、これを実際に見るために、いくつかのコードを変更してみましょう。
 
-Let's turn the background of our app purple
+アプリの背景を紫色に変えよう
 
 ![](readmeImages/2018-11-12-08-29-50.png)
 
-Save it, and commit back to github
+保存して github にコミットする
 
 ![](readmeImages/2018-11-12-10-45-24.png)
 
-This kicks off our our build
+これは私たちのビルドをキックオフします
 
 ![](readmeImages/2018-11-12-10-45-58.png)
 
-And what is happening in this build?
+そして、このビルドで何が起こっているのでしょうか?
 
 ![](readmeImages/2018-11-12-10-46-16.png)
 
-The build engine is downloading the latest changes from github including the azure-piplines.yml file. Then the build engine starts executing all the steps defined in the yaml file.  
+ビルド エンジンは、azure-piplines.yml ファイルを含む github から最新の変更をダウンロードしています。次に、ビルド エンジンは yaml ファイルで定義されたすべてのステップの実行を開始します。 
 
-   - NPM Install
-   - Setup DB Connection strings and endpoints
-   - Build App into static files
-   - Zip everything up so the build artificat is the zip file of the web app all ready to be deployed
-   - published build artifact back to Azure Pipelines.
+- NPM インストール
+- セットアップ DB 接続文字列とエンドポイント
+- 静的ファイルにアプリを構築
+- ビルドアーティフィカツは、すべての展開の準備ができてWebアプリのzipファイルであることを確認するために、すべてをジップアップ
+- Azure パイプラインに戻って公開されたビルド アーティファクト。
 
-And while this is running, I wanted to show you one more thing. Because right now, our database user and password is just stored as plain text in my yml file
+そして、これが実行されている間、私はあなたにもう一つのものを見せたかった。今のところ、データベースのユーザーとパスワードは yml ファイルにプレーン テキストとして保存されているだけなので
 
 ![](readmeImages/2018-11-12-11-08-59.png)
 
-We can easily store and use secrets in Azure Pipleines by editing the build
+ビルドを編集することで、Azure Pipleines にシークレットを簡単に保存して使用できます。
 
 ![](readmeImages/2018-11-12-11-09-59.png)
 
-Where we can store secrets for our pipelines which are encrypted so no one can see them. And to use them, in your yml file, we would just reference them like this
+誰も見ることができないように暗号化されたパイプラインのシークレットを格納できる場所。そして、それらを使用するには、あなたのymlファイルで、我々はちょうどこのようにそれらを参照します
 
 ![](readmeImages/2018-11-12-11-11-57.png)
 
-Ok, looks like the build has finished and now it's kicked off the release pipeline
+[OK] をクリックすると、ビルドが完了し、リリース パイプラインが開始されました。
+
 
 ![](readmeImages/2018-11-12-11-45-59.png)
 
-So what is it doing? Release Management is downloading the build artificat from the build. In this case, it's the zip file of the compiled application and now it is deploying this new code. The one with the purple background into the staging environment. And here it is, deployed in staging. 
+それで何をしてるの?リリース管理では、ビルドのアーティフィカットをビルドからダウンロードしています。この場合、コンパイル済みアプリケーションの zip ファイルが作成され、この新しいコードがデプロイされます。紫色の背景を持つものがステージング環境に入ります。そして、ここでは、ステージングに展開されます。
 
 ![](readmeImages/2018-11-12-11-15-03.png)
 
-Approving this
+これを承認する
 
 ![](readmeImages/2018-11-12-11-46-41.png)
 
-And now, the bits start flowing into the Prod A slot
+そして今、ビットはProd Aスロットに流れ始めます
 
 ![](readmeImages/2018-11-12-11-47-13.png)
 
-So what is really happeing? Release management is going to the drop location, the very same drop location for this specific build and download the build artifacts. The VERY same build artifcats as what we just deployed into staging? It will now deploy those exact same bits into the ABTesting slot. There was no extra build, no extra compile, no extra bundling. These will guarentee be the exact same bits.
+では、本当に幸せなのは何でしょうか?リリース管理は、この特定のビルドのドロップ場所とまったく同じドロップ場所に行き、ビルドアーティファクトをダウンロードします。ステージングに展開したのとまったく同じビルドのアーティフキャットですか?ABTesting スロットにまったく同じビットを展開します。余分なビルドはなく、余分なコンパイルも、余分なバンドルも行われなかった。これらはまったく同じビットになります。
 
-Ok, now that we've deployed into the TestAB slot
+さて、TestABスロットにデプロイしました
 
 ![](readmeImages/2018-11-12-11-48-48.png)
 
-Let's refresh our production environment and we see...
+本番環境をリフレッシュしてみましょう。
 
 ![](readmeImages/2018-11-12-11-50-32.png)
 
-Why isn't the background purple?  Remember, we are now routing 50% of the traffic to the old code and 50% of the traffic to the new code. So let's open up another browser
+背景が紫色でないのはなぜですか? トラフィックの 50% を古いコードにルーティングし、トラフィックの 50% を新しいコードにルーティングすることに注意してください。それでは、別のブラウザを開きましょう
 
-[Go back to the main browser, open new tab, copy and paste front end prod url]
+[メインブラウザに戻り、新しいタブを開き、フロントエンドprod URLをコピーして貼り付けます]
 
-And...
+そして。。。
+
 
 ![](readmeImages/2018-11-12-11-54-41.png)
 
-Voila! 50% of our traffic routed through the old code, 50% of the traffic routed through the new code. Now, we can collect telemetry to help us determine if we are delivering value. And if they are, we can approve this and the code 
+出来上がり！トラフィックの 50% が古いコードを経由し、トラフィックの 50% が新しいコードを経由してルーティングされます。テレメトリを収集して、価値を提供しているかどうかを判断できるようになりました。もしそうなら、私たちはこれを承認し、コードを承認することができます
 
 ![](readmeImages/2018-11-12-11-55-39.png)
 
-Will flow 100% to the new code.  
+新しいコードに 100% フローします。
+
 
 ![](readmeImages/2018-11-12-12-17-53.png)
 
-As you can see, we can easily set up our pipeline so we can increment the flow from 10% to 20% and slowly all the way up to 100%. And if we are not giving value, we can also set up the pipeline to stop the deployment and roll back.
+ご覧の通り、パイプラインを簡単に設定できるため、フローを 10% から 20% に増分し、100% までゆっくりと増やすことができます。また、価値を与えていない場合は、デプロイを停止してロールバックするパイプラインを設定することもできます。
 
 ![](readmeImages/2018-11-12-12-18-45.png)
 
 
-Pretty cool huh. I have just shown you 
+かっこいいな私はちょうどあなたを示した
 
-   - Creating a CI/CD Pipeline
-   - Implementing advanced DevOps best practices like AB Testing using Azure Pipelines and Azure App Service
+- CI/CD パイプラインの作成
+- Azure パイプラインと Azure アプリ サービスを使用した AB テストなどの高度な DevOps のベスト プラクティスの実装
 
-But we can do even better! Using Azure Pipelines, we have the ability to create automated approval gates based off of continuous monitoring. So now, we can automate the approval process from one stage to the next using AI!!!
+しかし、私たちはさらに良いことができます!Azure パイプラインを使用すると、継続的な監視に基づいて自動承認ゲートを作成できます。そこで今、AIを使って承認プロセスを1段階から次の段階に自動化することができます!!!
 
-For instance, right I've set up my staging environment to be monitored using Application Insight. 
+たとえば、アプリケーション インサイトを使用して監視するステージング環境を設定しました。
 
 [`Tab 3 - Application Insight for TailWind Traders Staging Environment`]
 ![](readmeImages/2018-11-12-12-41-33.png)
 
-And here, I've set up an alert
+そして、ここで、私はアラートを設定しました
 
 ![](readmeImages/2018-11-12-12-43-02.png)
 
-Looking for uncaught browser based javascript alert. And if there are too many of these, this will create an alert in Application Insight.
+キャッチされていないブラウザベースのJavascriptアラートを探しています。また、これらの数が多すぎる場合は、アプリケーション インサイトでアラートが作成されます。
 
 ![](readmeImages/2018-11-12-12-43-43.png)
 
-So the idea now is for me to deploy into the staging environment. I can then run my tests, users can start testing in the staging environment. And if Application insight finds too many alerts or browser based errors, it will automatically stop my deployment so I don't deploy into production. And if everything looks good, it will automatically with no user approvals, flow into the production environment.
+だから今の考え方は、私がステージング環境にデプロイすることです。その後、テストを実行し、ユーザーはステージング環境でテストを開始できます。また、Application INSIGHT で検出されたアラートやブラウザベースのエラーが多すぎる場合は、デプロイが自動的に停止し、運用環境に展開しません。すべてが順調に見える場合は、ユーザーの承認なしで自動的に運用環境に流れ込みます。
 
-To set this up, we set up alerting in application insight for the staging environment, and then we need to tweak the release pipeline to use automated gates.
+これを設定するには、ステージング環境のアプリケーションインサイトでアラートを設定し、自動ゲートを使用するようにリリース パイプラインを微調整する必要があります。
 
 ![](readmeImages/2018-11-12-13-12-55.png)
  
- First, I'm going to remove the manual approver from the post deployment step
+まず、展開後の手順から手動承認者を削除します。
+
 
  ![](readmeImages/2018-11-12-13-38-22.png)
 
-And then, I'll add an automated gate of type Query Azure Monitor alerts
+次に、クエリ Azure モニター アラートの自動ゲートを追加します。
 
 ![](readmeImages/2018-11-12-13-40-46.png)
 
-Now, I just need to select the correct azure subscription, resource group and resource name and alert name
+今、私はちょうど正しいAzureサブスクリプション、リソースグループとリソースの名前とアラート名を選択する必要があります
 
 ![](readmeImages/2018-11-12-13-40-56.png)
 
-Set up my pulling frequency and and gate timeout, we'll save this and that's all we need to do. We have now set up an automated gate based off of continuous monitoring using Appication Insight.
+私の引っ張り周波数とゲートタイムアウトを設定し、これを保存し、それが私たちが行う必要があるすべてです。Appication Insight を使用した継続的な監視に基づいて、自動ゲートを設定しました。
 
-Now when we queue a release,
+リリースをキューに入れると
 
 ![](readmeImages/2018-11-12-13-43-01.png)
 
 ![](readmeImages/2018-11-12-13-43-21.png)
 
-It will deploy my code into the staging environment. The code that I'm deploying has a bunch of browser errors whenenever the index page is hit
+コードをステージング環境にデプロイします。展開するコードには、インデックス ページがヒットしない場合にブラウザ エラーが発生します。
 
 ![](readmeImages/2018-11-12-13-44-22.png)
 
-So Now
+そして、今
 
 ![](readmeImages/2018-11-12-13-44-33.png)
 
-After the code has been deployed, let's refresh our staging environment a couple of times
+コードがデプロイされた後、ステージング環境を数回更新してみましょう
 
 [Refresh staging 5 times]
 
-And this should generate a bunch of application insight errors from the browser
+そして、これはブラウザからアプリケーションインサイトエラーの束を生成する必要があります
 
 [`Tab 3 - Application Insight for TailWind Traders Staging Environment`]
 
@@ -594,191 +600,195 @@ And this should generate a bunch of application insight errors from the browser
 
 ![](readmeImages/2018-11-12-13-47-04.png)
 
-And here, you can see application Insight has caught a bunch of browser errors
+そして、ここでは、アプリケーションインサイトがブラウザエラーの束をキャッチしていることがわかります
 
-Which means now, when my gate hits, it detects the alerts from App Insight, fails the gate so now the broken code automatically does not get pushed to the prod environments!!!
+つまり、ゲートがヒットすると、App Insight からのアラートが検出され、ゲートが失敗するので、壊れたコードが自動的に prod 環境にプッシュされないようにします!!!
 
-And BAM! Gate detected Application Insight alerts. Failed and release died in staging.
+そして、BAM!ゲートでアプリケーション インサイトアラートが検出されました。失敗し、ステージングでリリースが発生しました。
 
 ![](readmeImages/2018-11-12-13-49-46.png)
 
-SUPER COOL Stuff!!!
+スーパークールなもの!!!
 
-So what have I shown you so far?
+今まで何を見せた?
 
-   - We can easily create CI/CD Pipelines for any language targeting any platform
-   - We can easily implement pretty much anything in our pipelines, including advanced DevOps best practices like AB Testing.
-   - We can even enable automated approval gates using Continuous monitoring so now we can deploy faster yet even safer!!!
+- あらゆるプラットフォームをターゲットにしたあらゆる言語に対して、CI/CDパイプラインを簡単に作成できます。
+- AB テストなどの高度な DevOps のベスト プラクティスを含め、パイプラインでほとんど何でも簡単に実装できます。
+- 継続的な監視を使用して自動承認ゲートを有効にすることもできるため、より迅速かつ安全に展開できるようになりました!!!
 
-And all of this can be done easily.  But let me tell you a confession. I may be a DevOps practitioner, but I'm not a huge fan of building out CI/CD Pipelines by hand. I mean, I recognize the importance of good pipelines, but I love to write code! That's what makes me happy. And with the power of Azure, i can get started super easily with just a couple of clicks. And what do I mean by "getting started?" 
+そして、このすべては簡単に行うことができます。 でも、お前に告白しよう私はDevOpsの実践者かもしれませんが、私は手でCI/CDパイプラインを構築する大ファンではありません。つまり、私は良いパイプラインの重要性を認識していますが、私はコードを書くのが大好きです!それが私を幸せにする理由です。そして、Azureの力で、私は数回のクリックで超簡単に始めることができます。「始める」とはどういう意味ですか?
 
-Using the power of Azure DevOps Projects, with just a few clicks, I can create everything I need to get started. A Team Project in Azure Pipelines. Sample code in the language that you pick in my repo. A CI/CD pipeline that makes sense for the technolgoies picked, and infrastructure provisioned for you in Azure. And I get ALL of this with just a couple of clicks. Let me show you what I mean.
+Azure DevOps プロジェクトのパワーを使用して、数回クリックするだけで、開始に必要なすべてを作成できます。Azure パイプラインのチーム プロジェクト。私のリポジトリで選択した言語のサンプルコード。選択したテクノロジに適した CI/CD パイプラインと、Azure でプロビジョニングされたインフラストラクチャ。そして、私はちょうど数回のクリックでこのすべてを取得します。私が何を意味するか見せてあがろう。
 
 [`Tab 4 - Azure Portal` ]
 ![](readmeImages/2018-11-09-07-50-20.png)
 
-From the azure portal, let's go and create an Azure DevOps project. 
+Azure Portal から、Azure DevOps プロジェクトを作成してみましょう。
+
 
 ![](readmeImages/2018-11-12-14-36-35.png)
 
-Now the very first thing it's going to ask you is what language do you want to use. You can pick .NET of course, node, php, java, python, ruby go with more languages to come!
+今、最初に尋ねるのは、どの言語を使用するかです。あなたはもちろん、ノード、php、Java、Python、Rubyは来てより多くの言語で行く.NETを選ぶことができます!
 
 ![](readmeImages/2018-11-12-14-37-25.png)
 
-For this demo, let's pick node and click next
+このデモでは、ノードを選択し、次をクリックします。
 
-Now it's asking what framework do you want to use. For this demo, let's just build a simple Node.js app.
+次に、どのフレームワークを使用するかを尋ねています。このデモでは、単純な Node.js アプリを構築してみましょう。
 
 ![](readmeImages/2018-11-12-14-38-06.png)
 
-And now, it's asking what infrastructure do you want to host your app? For this demo, let's host our node.js app in a kubernetes cluster.
+次に、アプリをホストするインフラストラクチャを確認します。このデモでは、node.js アプリを kubernetes クラスターでホストしてみましょう。
 
 ![](readmeImages/2018-11-12-14-38-53.png)
 
-And now, it's asking what instance of Azure DevOps do you want to use to orchestrate everything. You can create a brand new one from here, or use one that already exists. For this demo, I'll pick my demo account, I'll name the project IgniteTour, name my Kubernetes Cluster IgniteTourCluster, click done and....
+次に、Azure DevOps のインスタンスを使用してすべてを調整します。ここから新しい新しいものを作成することも、既に存在する新しいものを使用することもできます。このデモでは、私は私のデモアカウントを選択し、私はプロジェクトIgniteTourに名前を付け、私のKubernetesクラスタIgniteTourClusterに名前を付け、完了をクリックして....
 
 ![](readmeImages/2018-11-12-14-42-10.png)
 
-Bam, that is LITERALLY all you need to do. Now, just kick back and let Azure build everything out for you. A team project in Azure Pipelines. Sample code in the langauge that you picked, In our case, a node js sample app, sitting in a git repo. A CI/CD Pipeline that makes sense for the technologies picked, so a node js app running in a docker container, hosted in a kubernetes cluster. And infrastructure provisioned for you in Azure. So a kubernetes cluster deployed for us in Azure. And when it's all done doing this, you get a portal blade that looks like this
+バム、それは文字通りあなたがする必要があるすべてです。さて、ちょうどキックバックし、Azureがあなたのためにすべてを構築してみましょう。Azure パイプラインのチーム プロジェクト。あなたが選んだランゲージのサンプルコードは、私たちの場合、ノードjsサンプルアプリ、gitリポジトリに座って。選択したテクノロジに適した CI/CD パイプラインで、kubernetes クラスターでホストされているドッカー コンテナーで実行されているノード js アプリ。また、Azure でプロビジョニングされたインフラストラクチャ。そのため、Azure でデプロイされた kubernetes クラスターです。そして、これがすべて完了したら、次のようなポータルブレードを取得します。
 
 [`Tab 5 - Ignite 1 DevOps Project Dashboard` ]
 ![](readmeImages/2018-11-12-15-07-18.png)
 
-Where on the left hand side you see the CI/CD Pipeline. And on the right hand side, you see all the infrastructure that got provisioned for you in Azure uncluding our kubernetes cluster, instance of application isight and our web app running in our Kubernetes cluster.
+左側に CI/CD パイプラインが表示されます。右側には、Azure でプロビジョニングされたすべてのインフラストラクチャが、Kubernetes クラスター、アプリケーション isight のインスタンス、Kubernetes クラスターで実行されている Web アプリを排除しています。
 
-And all of these links are deep links into the resource itself. For instance 
+これらのリンクはすべて、リソース自体への深いリンクです。例えば
 
 ![](readmeImages/2018-11-12-15-07-43.png)
 
-Clicking on the link to the code will take us to the git repo holding our node js app.
+コードへのリンクをクリックすると、ノード js アプリを保持している git リポジトリに表示されます。
 
 ![](readmeImages/2018-11-12-15-18-12.png)
 
-Notice, this is just a node js app using DevOps best practices so we are using Arm templates for Infrastructure as Code and also using Helm charts to package up our kubernetes app.
+これは DevOps のベスト プラクティスを使用するノード js アプリにすぎないため、インフラストラクチャの Arm テンプレートをコードとして使用し、Helm グラフを使用して kubernetes アプリをパッケージ化しています。
 
-For the build pipeline
+ビルド パイプラインの場合
 
 ![](readmeImages/2018-11-12-15-19-19.png)
 
-We create for you a build pipeline that makes sense for the technologies picked. So in this case you get a build pipeline that creates a docker image for the node.js sample app, pushes the image into an instance of Azure Container Registry and then packages the app up as a helm package.
+選択したテクノロジに適したビルド パイプラインを作成します。この場合、node.js サンプル アプリの docker イメージを作成し、そのイメージを Azure コンテナー レジストリのインスタンスにプッシュし、アプリを helm パッケージとしてパッケージ化するビルド パイプラインを取得します。
 
 ![](readmeImages/2018-11-12-15-20-20.png)
 
-Next, for the release pipeline
+次に、リリース パイプラインの場合
 
 ![](readmeImages/2018-11-12-15-20-46.png)
 
 ![](readmeImages/2018-11-12-15-21-12.png)
 
-We create for you a release pipeline that makes sense for the technologies picked.
+選択したテクノロジに適したリリース パイプラインを作成します。
 
 ![](readmeImages/2018-11-12-15-21-43.png)
 
-We create a pipeline that creates your azure infrastructure using the ARM templates, which includes the kubernetes cluster in Azure Kubernetes Service. And then we deploy our app using Helm.
+AZURE Kubernetes サービスの kubernetes クラスターを含む ARM テンプレートを使用して Azure インフラストラクチャを作成するパイプラインを作成します。そして、Helm を使用してアプリをデプロイします。
 
-And after deploying the app, the app is no available by clicking on the app endpoint from the portal blade
+アプリをデプロイした後、ポータル ブレードからアプリ エンドポイントをクリックしても、アプリは使用できません。
 
 ![](readmeImages/2018-11-12-15-22-55.png)
 
-Which launches our sample app deployed in Azure Kubernetes Service
+Azure Kubernetes サービスにデプロイされたサンプル アプリを起動する
+
 
 ![](readmeImages/2018-11-12-15-23-37.png)
 
-And once again. You get all of this with just a couple of clicks!!
+もう一度あなたはクリックのカップルでこのすべてを取得します!
 
-So million dollar question. How do you get your real code into this pipeline instead of the sampel app?
+だから百万ドルの質問。サンペル アプリの代わりに、実際のコードをこのパイプラインに取り込むにはどうすればよいでしょうか。
 
-Simple enough
+十分にシンプル
 
-Going to the git repo
+ギットレポに行く
 
 ![](readmeImages/2018-11-12-15-37-15.png)
 
-This is just a plain old git repo. So simple enough to clone this onto our hard drive, remove the application folder, copy our application into the local repo. Commit and push those changes back up to Azure Repos which will kick off the CI/CD pipeline with our real code which then get's pushed all the way into production!
+これは単なる古いギットレポです。私たちのハードドライブにこれをクローンし、アプリケーションフォルダを削除し、ローカルリポジトリにアプリケーションをコピーするのに十分簡単です。これらの変更をコミットして Azure リポジトリにプッシュし、実際のコードを使用して CI/CD パイプラインを開始し、運用環境にすべてプッシュします。
 
-There's another way we can do this too by editing the build pipeline.
+ビルド パイプラインを編集して、これを行う別の方法もあります。
 
 ![](readmeImages/2018-11-12-15-39-18.png)
 
-And now, when we get source, instead of getting the source from Azure Repos, we'll switch that over to my github repo holding my real code, click Save and Queue
+そして今、ソースを取得したら、Azure リポジトリからソースを取得する代わりに、実際のコードを保持している github リポジトリに切り替えて、[保存してキューにする] をクリックします。
 
 ![](readmeImages/2018-11-12-15-40-24.png)
 
 ![](readmeImages/2018-11-12-15-40-48.png)
 
-And this should start building my real code from github and sending it through the release pipeline all the way to my kubernetes cluster.
+これにより、実際のコードを github からビルドし、リリース パイプラインを通じて kubernetes クラスターに送信する必要があります。
 
-And going back into the portal
+そしてポータルに戻る
 
  [`Tab 6 - Ignite 2 DevOps Project Dashboard` ]
 
 ![](readmeImages/2018-11-12-15-42-59.png)
 
-You can see that the code is being pulled from github, it's been built and deployed and here is my real app, deployed into my kubernetes cluster 
+コードが github からプルされ、ビルドされ、デプロイされていることがわかります。
 
 ![](readmeImages/2018-11-12-15-43-33.png)
 
-BAM!!!! And ALL Of this, with just a couple of clicks.
+Bam！！！！そして、このすべては、クリックのカップルで。
 
-So what have we've shown you all?
+皆に何を見せた?
 
-   - We can easily build out CI/CD pipelines for any language targeting any platform
-   - We can easily impliment advanced DevOps techniques using Azure Pipelines and Azure
-   - We can even include automated deployment gates that utilize continuous monitoring to help us determine if a gate should pass or not
-   - And we can quickly scaffold out our CI/CD pipelines into Azure with just a couple of clicks using Azure DevOps Projects!
+- あらゆるプラットフォームをターゲットにしたあらゆる言語に対して、CI/CDパイプラインを簡単に構築できます。
+- Azure パイプラインと Azure を使用して高度な DevOps 技術を簡単に実行できます。
+- ゲートが通過する必要があるかどうかを判断するために継続的な監視を利用する自動展開ゲートを含めることさえできます。
+- また、Azure DevOps プロジェクトを使用して数回クリックするだけで、CI/CD パイプラインを Azure にすばやくフォールディングできます。
 
-Now all of these demos that I have shown are still relatively simple. How would all of this work with a real world application? Like with Tailwind Traders?
+今、私が示したこれらのデモのすべては、まだ比較的簡単です。このすべてが実際のアプリケーションでどのように動作するのでしょうか?テールウィンドトレーダーと同じように?
 
-The Tailwind Traders application consists of a node.js web front end with two microservices. The inventory service is a .net core micro service running in a docker container hosted in Azure App Service.  The product service is a node js micro service running in a docker container hosted in a kubernetes cluster. The web front end is a Node.js app hosted in Azure App Service. And finally, there is also an iOS mobile app front end as well. Can we use Azure Pipelines to build and release this real world scenario?
+Tailwind Traders アプリケーションは、2 つのマイクロサービスを備えた node.js Web フロントエンドで構成されています。インベントリ サービスは、Azure App Service でホストされるドッカー コンテナーで実行される .net コア マイクロ サービスです。 製品サービスは、kubernetes クラスターでホストされているドッカー コンテナーで実行されるノード js マイクロ サービスです。Web フロントエンドは、Azure アプリ サービスでホストされる Node.js アプリです。最後に、iOS モバイル アプリのフロントエンドもあります。Azure パイプラインを使用して、この現実世界のシナリオを構築およびリリースできますか。
 
-ABSOLULTEY! Check this out
+アブソルテイ!これがいいと思います
+
 
 [`Tab 7 - Tailwind Build All Up` ]
 https://dev.azure.com/azuredevopsdemo-a/AbelTailwindInventoryService/_apps/hub/ms.vss-ciworkflow.build-ci-hub?_a=edit-build-definition&id=27
 ![](readmeImages/2018-11-09-07-59-05.png) 
 
-Here is one build that builds ALL 4 parts of our application in parallel. We use a 
-hosted windows agent to build our .net core inventory service and we create a docker image out of it.
+アプリケーションの 4 つの部分すべてを並列にビルドする 1 つのビルドを次に指定します。私たちは、
+ホストされた Windows エージェントは、.net コア インベントリ サービスを構築し、ドッカー イメージを作成します。
 
 ![](readmeImages/2018-11-12-15-50-31.png)
 
-Next we use an ubuntu agent to build our node js product service container and then we create a helm package out of it
+次に、ubuntu エージェントを使用してノード js 製品サービス コンテナーを構築し、それからヘルム パッケージを作成します。
 
 ![](readmeImages/2018-11-12-15-51-35.png)
 
-Next we use another ubuntu agent to build our node js Tailwind front end web application
+次に、別の ubuntu エージェントを使用してノード js Tailwind フロントエンド Web アプリケーションを構築します。
 
 ![](readmeImages/2018-11-12-15-52-12.png)
 
-And finally, we use one of our hosted mac agents to create our iOS application.
+最後に、ホストされた mac エージェントの 1 つを使用して iOS アプリケーションを作成します。
 
-1 build, 4 parallel agents building our app all at once. We are the ONLY cloud vender that will give you agents for all 3 platforms. Windows, Linux and Macs!!!!
+1ビルド、4パラレルエージェントは、一度に私たちのアプリを構築します。私たちは、すべての3つのプラットフォームのためのエージェントを与える唯一のクラウドベンダーです。ウィンドウズ、リナックス、マック!!!!
 
-We can do the same thing with our release pipelines too.
+リリース パイプラインでも同じことができます。
 
 [`Tab 8 - Tailwind Release All Up` ]
 ![](readmeImages/2018-11-12-16-11-47.png)
 
-Where we have one release with 4 parallel tracks. One track to deploy the inventory service as a container into App Service
+我々は4つのパラレルトラックを持つ1つのリリースを持っているところ。インベントリ サービスをコンテナーとしてアプリ サービスにデプロイする 1 つのトラック
 
-One track taking the Product Service and deploying that as a helm app in a Kubernetes Cluster
+製品サービスを受け取り、Kubernetes クラスタに舵輪アプリとしてデプロイする 1 つのトラック
 
-One track that deploys the web front end as a static site sitting in App service and  finally, one track that takes the ios app and deploys it all the way out into the App Store.
+Web フロント エンドを App Service の静的サイトとしてデプロイする 1 つのトラック、最後に ios アプリを取り込んで App Store にデプロイするトラックの 1 つです。
 
-So real world? You bet. Using azure pipelines, you can deploy any app targeting any platform no matter how complex your app.  And as for release gates, here are some real world cases of using release gates.
+現実の世界?もちろん。Azure パイプラインを使用すると、アプリの複雑性にかかわらず、任意のプラットフォームをターゲットに任意のアプリをデプロイできます。 リリース ゲートに関しては、リリース ゲートを使用する実際のケースをいくつかご覧ください。
+
 
 
 [`Tab 9 - Release Gate Docusign Example`]
 
 ![](readmeImages/2018-11-09-09-10-39.png)
 
-I was recently at a hospital where they literally had a rule in place where they could not deploy into production without a physical document signed and uploaded to their docusign server. This was turning into a bottleneck as now, a physical person had to verify the document was signed before deployments into production could happen.  However, I also knew that Docusign had a rest api, so it was super simple to create a custom gate that checked to see if the document was signed.
+私は最近、物理的なドキュメントが署名され、彼らのドキュサインサーバーにアップロードせずに本番環境に展開できないルールを持っていた病院にいました。これは今ではボトルネックになり、運用環境への展開が行われる前に、物理的なユーザーがドキュメントが署名されたことを確認する必要がありました。 しかし、私はDocusignにrest apiがあることを知っていたので、ドキュメントが署名されているかどうかを確認するカスタムゲートを作成するのは非常に簡単でした。
 
 ![](readmeImages/2018-11-12-16-17-21.png)
 
-So now, after the code is deployed into QA, tests were done, a human ok'd it, and now, the gate kicked in. When you set up a gate, you get to set up the polling frequency as well as the time out. So in this case, I pulled every 5 minutes checking to see if the document was signed. First time, wasn't signed. Second time, still wasn't signed. 15 minuytes later? Docuemnt was signed and the new deployment automatically deployed into the production environment.
+だから今、コードがQAにデプロイされた後、テストが行われ、人間はそれをOKし、今、ゲートが始まりました。ゲートを設定すると、ポーリング頻度とタイムアウトを設定できます。この場合、ドキュメントが署名されているかどうかを確認するために 5 分ごとにプルしました。初めて、署名されませんでした。二度目は、まだ署名されていませんでした。15ミヌイテス後?Docuemnt が署名され、新しいデプロイが運用環境に自動的に展開されました。
 
-Another example of using these release gates is here, where I used Dynatrace monitoring to see if a release is good or not.
+これらのリリースゲートを使用する別の例は、リリースが良いかどうかを確認するために Dynatrace モニタリングを使用した場所です。
 
 [`Tab 10 - Release Gate Dynatrace Unbreakable Pipeline Pass`]
 
@@ -786,7 +796,7 @@ Another example of using these release gates is here, where I used Dynatrace mon
 
 ![](readmeImages/2018-11-12-16-19-51.png)
 
-In this example, code was deployed to staging, load test were run, and then the gate kicked in, where we use dynatrace to help us determine if the deployment was good or bad. In this case, all response times looked good, the gate passed and the code flowed into production.
+この例では、コードをステージングに展開し、ロード テストを実行し、ゲートが開始され、dynatrace を使用して展開が良いか悪いかを判断します。この場合、すべての応答時間が良好に見え、ゲートが通過し、コードが運用環境に流れ込みます。
 
 [`Tab 11 - Release Gate Dynatrace Unbreakable Pipeline Fail`]
 
@@ -794,6 +804,6 @@ In this example, code was deployed to staging, load test were run, and then the 
 
 ![](readmeImages/2018-11-12-16-20-59.png)
 
-And here, after the code was deployed in staging and load tests were run, dynatrace detected enough annomolies that it said the release was bad, failing the gate, and the bad code never made it into production.
+ここで、コードがステージングにデプロイされ、ロード テストが実行された後、dynatrace はリリースが悪いと言う十分なアノモリを検出し、ゲートを失敗させ、不正なコードが運用環境に入らなかったことを検出しました。
 
-So here you can see how using automated approval gates, you can use AI to help with your deployments. So all you devs out there, let's do this!!! Go to dev.azure.com and let's start building our CI/CD pipelines so we can all deploy faster yet safer
+ここでは、自動承認ゲートを使用する方法を確認できます。だから、あなたがそこに開発するすべては、これを行いましょう!!!dev.azure.comに移動し、CI/CD パイプラインの構築を開始し、すべての方がより速く、より安全にデプロイできるようにしましょう。
