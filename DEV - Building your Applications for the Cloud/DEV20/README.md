@@ -36,6 +36,10 @@
 このセッションのデモは、ブラウザと VSCode の 1 つのインスタンスを使用して行われます。お気に入りのブラウザを開き、次のタブを保持してください。
 
 <!-- TODO: update properly links-->
+<!-- 
+リンクが無効だったので削除。
+-->
+
 1. `Tab 1 - GitHub リポジトリ for tailwind frontend` 
 https://github.com/sasukeh/AbelTailWindFrontEnd
 ![](readmeImages/2018-11-09-07-48-15.png)
@@ -54,9 +58,9 @@ https://github.com/sasukeh/AbelTailWindFrontEnd
 
 別のブラウザを開きます。Chromeを使用して最初のセットを開いた場合は、Firefox または Edge を使用してください。このブラウザで 2 つのタブを開きます。
 
-1. `Tab 1 - Tailwind Traders Staging` https://abeltailwindfrontend4staging.azurewebsites.net/
+1. `Tab 1 - Tailwind Traders Staging` 
 ![](readmeImages/2018-11-09-09-14-45.png)
-2. `Tab 2 - Tailwind Traders Production` https://abeltailwindfrontend4.azurewebsites.net/
+2. `Tab 2 - Tailwind Traders Production` 
 ![](readmeImages/2018-11-09-09-15-37.png)
 
 このデモでは、VSCode を使用してコードを変更することもできます。
@@ -65,13 +69,13 @@ https://github.com/sasukeh/AbelTailWindFrontEnd
 
 ## クリーンアップ
 
-1. ビルドパイプラインとリリースパイプラインの削除 https://dev.azure.com/azuredevopsdemos-a/AbelTailWind
+1. ビルドパイプラインとリリースパイプラインの削除 https://dev.azure.com/azuredevopsdemo-a/AbelTailWind
     - [Damovisa.ignite-tour-lp1s2 - CD](https://dev.azure.com/azuredevopsdemo-a/AbelTailWind/_release?view=mine)
     - [Damovisa.ignite-tour-lp1s2](https://dev.azure.com/azuredevopsdemo-a/AbelTailWind/_build_)
-1. 変更 [Testing In Production for ABTesting slot](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/e97f6c4e-c830-479b-81ad-1aff1dd07470/resourceGroups/AbelIgnite2018WServers/providers/Microsoft.Web/sites/AbelTailWindFrontEnd4/testingInProduction) to 0%
-1. 削除 [ABTesting slot](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/e97f6c4e-c830-479b-81ad-1aff1dd07470/resourceGroups/AbelIgnite2018WServers/providers/Microsoft.Web/sites/AbelTailWindFrontEnd4/deploymentSlots)
+1. 変更 [Testing In Production for ABTesting slot]() to 0%
+1. 削除 [ABTesting slot]()
 1. `az-pipelines.yml` の削除
-1. [Remove marketplace app access to the ignite-tour-lp1s2 repo in GitHub](https://github.com/settings/installations/380745)
+1. [Remove marketplace app access to the ignite-tour-lp1s2 repo in GitHub](https://github.com/settings/installations)
 1. `/src/Nav.js` に行き`heading`をリセットするand reset the heading
 ![](readmeImages/2018-11-28_15-56-20.png)
 
