@@ -1,3 +1,10 @@
+
+# 2019/08/20 セミナーでの内容
+https://github.com/sasukeh/IgniteTheTour_ja-jp/tree/master/DEV%20-%20Building%20your%20Applications%20for%20the%20Cloud/DEV20
+
+# 2019/08/20のセミナーの補足内容
+
+
 # 貢献
 
 このプロジェクトは、貢献や提案を歓迎します。貢献は、あなたがCLAに同意する必要があります
@@ -13,3 +20,4 @@ CLAを適切に飾り、PR(ラベル、コメントなど)を適切に飾りま�
 このプロジェクトは、「マイクロソフトオープンソース行動規範」(https://opensource.microsoft.com/codeofconduct/)を採用しています。
 詳細については、「行動規範に関するよくある質問」(https://opensource.microsoft.com/codeofconduct/faq/faq/)を参照してください。
 その他のご質問やご意見は[opencode@microsoft.com](mailto:opencode@microsoft.com)までお問い合わせください。
+ 
