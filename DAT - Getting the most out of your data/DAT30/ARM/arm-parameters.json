@@ -84,13 +84,13 @@
             "value": "West US"
         },
         "function_subscriptionId": {
-            "value": "bc202ec2-54ef-4576-b7fb-a961c983398e"
+            "value": ""
         },
         "db_administratorLogin": {
             "value": "tailwind"
         },
         "db_administratorLoginPassword": {
-            "value": "Password01!"
+            "value": ""
         },
         "db_collation": {
             "value": "SQL_Latin1_General_CP1_CI_AS"
