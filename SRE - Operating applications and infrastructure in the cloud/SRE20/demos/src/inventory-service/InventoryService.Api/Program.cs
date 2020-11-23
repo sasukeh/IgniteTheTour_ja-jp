@@ -29,7 +29,7 @@ namespace InventoryService.Api
                     context.SecretUsers.Add(new SecretUser
                     {
                         Username = "administrator",
-                        Password = "MySuperSecr3tPassword!"
+                        Password = ""
                     });
                     context.SaveChanges();
                 }
