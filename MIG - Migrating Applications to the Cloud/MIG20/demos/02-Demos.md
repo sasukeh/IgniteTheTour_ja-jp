@@ -193,7 +193,7 @@ At this point we are ready to start the migration with the Database migration se
     - In the `Select source` tab, enter the IP address of the "on premise" SQL 2012 VM `13.68.175.168`.
     - Select `SQL authentication`.
     - Enter the username `username`.
-    - Enter the password `d04f69d38b163f60A1!`.
+    - Enter the password ``.
     - Make sure that `Encrypt connection` and `Trust server certificate` are checked.
     - Click on `Save`. The service will connect to the source server and check that everything works.
     - In the `Select target` tab, enter the `Target server name`. You can copy it from the SQL Database Managed Instance overview page, it is the `Host` value. Or you can copy it from commands.txt. The value is `sqlmi4e9f1e.0b30e6402ec5.database.windows.net`.
