@@ -37,7 +37,7 @@
         },
         "sqlAdminPassword":{
             "type":"string",
-            "defaultValue":"password"
+            "defaultValue":""
         }
     },
     "variables": {
