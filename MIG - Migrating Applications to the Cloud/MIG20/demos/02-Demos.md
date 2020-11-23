@@ -199,7 +199,7 @@ At this point we are ready to start the migration with the Database migration se
     - In the `Select target` tab, enter the `Target server name`. You can copy it from the SQL Database Managed Instance overview page, it is the `Host` value. Or you can copy it from commands.txt. The value is `sqlmi4e9f1e.0b30e6402ec5.database.windows.net`.
     - Select `SQL authentication`.
     - Enter the username `username`.
-    - Enter the password `d04f69d38b163f60A1!`.
+    - Enter the password ``.
     - Click on `Save`. Here too the service will connect to the target server and make sure that everything is OK.
     - In the `Select databases` tab, make sure that `tailwind` is selected.
     - Click on `Save`.
@@ -208,8 +208,8 @@ At this point we are ready to start the migration with the Database migration se
         - Select `I will let Azure Database Migration Service create backup files`.
         - Under `Network share...` enter `\\storage6c4b8e.file.core.windows.net\share1`. This is the address of a file share to which the backups will be copied by the DMS.
         - Under `impersonates`, enter `AZURE\storage6c4b8e`.
-        - Under `Password`, enter `t9U7ysu882Jy3Y8kdRa0bk/wNHhGk+75SGebaizG3KHCMDO/SvoW/QWlJb6414a4dNhoUCFoiWFJli7tA6ZYEQ==`.
-        - Under `SAS URI`, enter `https://storage6c4b8e.blob.core.windows.net/container1?sp=rwdl&st=2019-01-16T11:30:37Z&se=2020-01-17T11:30:00Z&sv=2018-03-28&sig=79fe3t5zhkPwncwVyp%2FZO8CO9ka1B90K4KlUWGQ6EkY%3D&sr=c`. This is the SAS URI of a blob container which will be used for some temporary files.
+        - Under `Password`, enter ``.
+        - Under `SAS URI`, enter ``. This is the SAS URI of a blob container which will be used for some temporary files.
         - Click on `Advanced settings`.
         - Show that you can change the name of the target database if needed (don't change it in this demo).
         - Click on `Save`. This step takes a while so be ready to talk through it and explain the next steps.
