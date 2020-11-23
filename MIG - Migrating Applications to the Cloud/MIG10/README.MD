@@ -38,7 +38,7 @@ Deploy 3 web-based applications (2 API's, one front end) to Azure Web Apps for C
   1. Open a terminal instance and login to ACR with Docker
 
       ```
-      docker login --username <username> --password <password> <login server>
+      docker login --username <username> --password "" <login server>
       ```
   
   1. Go the "src/frontend" directory of the DEV10 repo and build the application as a Docker image
@@ -86,13 +86,13 @@ Deploy 3 web-based applications (2 API's, one front end) to Azure Web Apps for C
 
     * Select "Application Settings." Scroll down to "Connection Strings" and create new connections string with 
     * CONNECTION STRING NAME "InventoryContext", 
-    * the VALUE is the full connection string, "Server=tcp:server-example-sqldb.database.windows.net,1433;Initial Catalog=example-example-sqldb;Persist Security Info=False;User ID=example;Password=example;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30" and TYPE "SQLAzure"
+    * the VALUE is the full connection string, "Server=tcp:server-example-sqldb.database.windows.net,1433;Initial Catalog=example-example-sqldb;Persist Security Info=False;User ID=example;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30" and TYPE "SQLAzure"
 
 Save these Settings, move on to product-service App-Service.  
 
 Select "Application Settings." Scroll down to "Application setting and create the following APP SETTING NAME and VALUE for your app:
     
-    * DB_CONNECTION_STRING, ```mongodb://example-northwind:Ywk16bEy0yNMdOI4NMqvEVENT1najbzq0Iam6R3SpsDyOL2exE9Yx0UlL4mmOrard8GZrkN2lDkahpuaxBqeEQ==@tailwind-northwind.documents.azure.com:10255/tailwind?ssl=true&replicaSet=globaldb```
+    * DB_CONNECTION_STRING, ```mongodb://example-northwind:""@tailwind-northwind.documents.azure.com:10255/tailwind?ssl=true&replicaSet=globaldb```
         * SEED_DATA, true
 Save and then create frontend variables, these are the https urls of the product-service and inventory-service.
   
