@@ -1,7 +1,7 @@
 -- NOTES ------------------------
 
 Username = username
-password = d04f69d38b163f60A1!
+password = ""
 
 -- PREPARATION ------------------
 
@@ -13,8 +13,8 @@ CONTAINER_REGISTRY=acr${RANDOM_STR}
 CONTAINER_IMAGE='ignite-inventory-service:latest'
 CONTAINER_REGISTRY_PASSWORD=$(az acr credential show -n $CONTAINER_REGISTRY | jq -r .passwords[0].value)
 
-CONNECTION_STRING_2012='Server=tcp:13.68.175.168,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=username;Password=d04f69d38b163f60A1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
-CONNECTION_STRING_MI='Server=tcp:sqlmi4e9f1e.0b30e6402ec5.database.windows.net,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=username;Password=d04f69d38b163f60A1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
+CONNECTION_STRING_2012='Server=tcp:13.68.175.168,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=username;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
+CONNECTION_STRING_MI='Server=tcp:sqlmi4e9f1e.0b30e6402ec5.database.windows.net,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=username;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
 
 VM_NAME='inventory-service'
 az vm user update -u azureuser --ssh-key-value "$(< ~/.ssh/id_rsa.pub)" -g $RESOURCE_GROUP_7 -n $VM_NAME
@@ -72,11 +72,12 @@ tailwind-migration
 
 13.68.175.168
 username
-d04f69d38b163f60A1!
+""
 
 sqlmi4e9f1e.0b30e6402ec5.database.windows.net
 username
-d04f69d38b163f60A1!
+""
+
 
 \\storage6c4b8e.file.core.windows.net\share1
 
