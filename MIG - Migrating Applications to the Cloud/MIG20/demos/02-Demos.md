@@ -98,7 +98,7 @@ ls
 - Copy the modified script into Bash and execute.
 
 ```bash
-mongorestore --host HOST:10255 -u USER -p PASSWORD --ssl --sslAllowInvalidCertificates inventory.bson --numInsertionWorkersPerCollection 4 --batchSize 24 --db tailwind --collection inventory
+mongorestore --host HOST:10255 -u USER -p "" --ssl --sslAllowInvalidCertificates inventory.bson --numInsertionWorkersPerCollection 4 --batchSize 24 --db tailwind --collection inventory
 ```
 
 - After the migration is complete, go back to the Cosmos DB instance to the Collections/Browse tab and refresh the view. Show that now a collection named inventory is available.
@@ -155,7 +155,7 @@ For this demo, we will use [the Data migration assistant](https://www.microsoft.
     - For `server name`, use the IP address `13.68.175.168` of the VM on which the SQL Server 2012 source data runs. This is "on premise" (actually it is in Azure, but we tell the audience that "this SQL server runs under the CEO's desk...")
     - Select `SQL authentication`.
     - The username is `username`.
-    - Copy/paste the password `d04f69d38b163f60A1!`.
+    - Copy/paste the password ``.
     - Make sure that `Encrypt connection` and `Trust server certificate` are selected.
     - Click on `Connect`.
     - Select the `tailwind` database.
