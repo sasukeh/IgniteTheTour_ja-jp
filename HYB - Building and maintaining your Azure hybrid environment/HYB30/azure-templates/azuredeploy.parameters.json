@@ -6,7 +6,7 @@
            "value": "azureadmin"
        },
        "adminPassword": {
-           "value": "P@ssword12"
+           "value": ""
        },
        "VMCount": {
            "value": 1
