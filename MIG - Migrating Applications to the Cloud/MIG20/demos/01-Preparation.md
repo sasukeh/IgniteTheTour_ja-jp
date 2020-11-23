@@ -26,7 +26,7 @@
 - Open [commands.txt](https://github.com/Azure-Samples/ignite-tour-lp2s2/blob/master/demos/commands.txt) in Notepad++.
     - Under `mongorestore migration`, prepare the migration script with HOST, USER and PASSWORD placeholders.
 
-> mongorestore --host HOST:10255 -u USER -p PASSWORD --ssl --sslAllowInvalidCertificates inventory.bson --numInsertionWorkersPerCollection 4 --batchSize 24 --db tailwind --collection inventory
+> mongorestore --host HOST:10255 -u USER -p "" --ssl --sslAllowInvalidCertificates inventory.bson --numInsertionWorkersPerCollection 4 --batchSize 24 --db tailwind --collection inventory
 
 - Open https://docs.microsoft.com/en-us/azure/cosmos-db/cli-samples.
 - Make sure that [the Data Migration Assistant](https://www.microsoft.com/en-us/download/details.aspx?id=53595) is installed on your machine and runs.
@@ -53,9 +53,9 @@ CONTAINER_REGISTRY=acr${RANDOM_STR}
 CONTAINER_IMAGE='ignite-inventory-service:latest'
 CONTAINER_REGISTRY_PASSWORD=$(az acr credential show -n $CONTAINER_REGISTRY | jq -r .passwords[0].value)
 
-CONNECTION_STRING_2012='Server=tcp:13.68.175.168,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=username;Password=d04f69d38b163f60A1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
+CONNECTION_STRING_2012='Server=tcp:13.68.175.168,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=username;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
 
-CONNECTION_STRING_MI='Server=tcp:sqlmi4e9f1e.0b30e6402ec5.database.windows.net,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=username;Password=d04f69d38b163f60A1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
+CONNECTION_STRING_MI='Server=tcp:sqlmi4e9f1e.0b30e6402ec5.database.windows.net,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=username;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;'
 ```
 
 *Part 3: Setting the SSH key for Inventory VM*
